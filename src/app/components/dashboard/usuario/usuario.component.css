@@ -1,0 +1,33 @@
+table {
+  width: 100%; 
+  border-collapse: collapse;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 20%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer.success {
+  color: var(--sucess);
+}
+
+.pointer.info {
+  color: var(--info);
+}
+
+.pointer.danger {
+  color: var(--danger);
+}
+
+.pointer.warning {
+  color: var(--warning);
+}
